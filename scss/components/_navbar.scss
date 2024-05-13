@@ -1,0 +1,36 @@
+.container-fluid button {
+    background-color: #e5e5e5;
+    color: #e5e5e5;
+}
+
+
+.navbar-brand img {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 40px;
+    width: 100px;
+
+    &:hover {
+        transition: 0, 5s;
+        border-radius: 25px;
+        background-color: #cac8c8;
+    }
+}
+.nav-item a {
+        color: #e5e5e5;
+}
+.nav-link {
+    color: #e5e5e5;
+    &:hover {
+        transition: 0, 5s;
+        border-radius: 25px;
+    }
+}
+
+.nav-item {
+    &:hover {
+        background-color: #cac8c8;
+        border-radius: 25px;
+    }
+}
