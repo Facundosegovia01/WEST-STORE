@@ -246,6 +246,20 @@
 }
 
 .testimonios-section {
+  background-color: #5BC08A;
+  padding: 20px;
+}
+
+.testimonios-section h3 {
+  display: flex;
+  color: #1D293F;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.testimonios-article {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
