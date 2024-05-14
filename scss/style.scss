@@ -1,8 +1,12 @@
 // base
 @import 'base/reset';
+@import 'base/vars';
 // components
 @import 'components/body';
 @import 'components/navbar';
 @import 'components/footer';
+@import 'components/cards';
 // layouts
 @import 'layouts/index';
+@import 'layouts/product';
+@import 'layouts/iphone11';
