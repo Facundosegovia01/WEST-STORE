@@ -497,12 +497,20 @@
 @media screen and (max-width: 768px) {
   .section-sobre {
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
   }
-  .info-sobre h1 {
+  .section-sobre .info-sobre p, h1 {
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
-  .info-sobre p {
-    text-align: center;
+  .section-sobre .info-sobre a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .info-sobre h1 {
