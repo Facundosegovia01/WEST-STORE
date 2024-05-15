@@ -46,6 +46,10 @@
   border-radius: 25px;
 }
 
+.footer {
+  background-color: #56B280;
+}
+
 .que-incluye-section {
   background-color: transparent;
   margin-bottom: 160px;
@@ -383,7 +387,7 @@
 }
 
 .testimonios-section {
-  background-color: #5BC08A;
+  background-color: rgba(86, 178, 127, 0.5803921569);
   padding: 20px;
 }
 
